@@ -82,6 +82,9 @@ class Restraints():
         self.destroyProgr = Button(main, text='Exit', bg='red', command=main.destroy)
         self.destroyProgr.grid(row=0, column=3)
 
+        self.helpProgr = Button(main, text=' ? ', bg='#ffb3fe')
+        self.helpProgr.grid(row=12, column=0)
+        
     def __calculate(self, event):
 
         for i, k in enumerate(self.entry_all_get):
